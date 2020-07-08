@@ -1,0 +1,47 @@
+PODS:
+  - Bond (7.6.6):
+    - Differ (~> 1.4)
+    - ReactiveKit (~> 3.14)
+  - Differ (1.4.4)
+  - Eureka (5.2.0)
+  - JGProgressHUD (2.1)
+  - ReachabilitySwift (5.0.0)
+  - ReactiveKit (3.16.3)
+  - Realm (5.2.0):
+    - Realm/Headers (= 5.2.0)
+  - Realm/Headers (5.2.0)
+  - RealmSwift (5.2.0):
+    - Realm (= 5.2.0)
+
+DEPENDENCIES:
+  - Bond
+  - Eureka
+  - JGProgressHUD
+  - ReachabilitySwift
+  - ReactiveKit
+  - RealmSwift
+
+SPEC REPOS:
+  trunk:
+    - Bond
+    - Differ
+    - Eureka
+    - JGProgressHUD
+    - ReachabilitySwift
+    - ReactiveKit
+    - Realm
+    - RealmSwift
+
+SPEC CHECKSUMS:
+  Bond: 9e7d901cf4ed825b6004a93dd0a7f1c7479e2834
+  Differ: 5cd747e2f29c11ea9605eba7cb369df17e2b1ee2
+  Eureka: 820a761c700f6eaab3b60758f138e0d9b99072b3
+  JGProgressHUD: aa403e9a5b45cae98903c4600cccdd98c0c3ec90
+  ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
+  ReactiveKit: faec214ebc027b371b8037e0cf6336bacd42b889
+  Realm: f749c723e272f08fdf1939af5e61d2bd09b203e8
+  RealmSwift: bf0ab78b52c5bafba8b3ad73be8dfb4c1ea5cf01
+
+PODFILE CHECKSUM: 5f3a6874882551f067596c0ca926dcab52460758
+
+COCOAPODS: 1.8.4
