@@ -11,5 +11,6 @@ target 'HeadyAssignment' do
     pod 'ReactiveKit'
     pod 'RealmSwift'
     pod 'Eureka'
-    pod 'ReachabilitySwift'	
+    pod 'ReachabilitySwift'
+    pod 'SwiftKeychainWrapper'
 end

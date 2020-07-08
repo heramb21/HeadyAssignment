@@ -12,6 +12,7 @@ PODS:
   - Realm/Headers (5.2.0)
   - RealmSwift (5.2.0):
     - Realm (= 5.2.0)
+  - SwiftKeychainWrapper (3.4.0)
 
 DEPENDENCIES:
   - Bond
@@ -20,6 +21,7 @@ DEPENDENCIES:
   - ReachabilitySwift
   - ReactiveKit
   - RealmSwift
+  - SwiftKeychainWrapper
 
 SPEC REPOS:
   trunk:
@@ -31,6 +33,7 @@ SPEC REPOS:
     - ReactiveKit
     - Realm
     - RealmSwift
+    - SwiftKeychainWrapper
 
 SPEC CHECKSUMS:
   Bond: 9e7d901cf4ed825b6004a93dd0a7f1c7479e2834
@@ -41,7 +44,8 @@ SPEC CHECKSUMS:
   ReactiveKit: faec214ebc027b371b8037e0cf6336bacd42b889
   Realm: f749c723e272f08fdf1939af5e61d2bd09b203e8
   RealmSwift: bf0ab78b52c5bafba8b3ad73be8dfb4c1ea5cf01
+  SwiftKeychainWrapper: 6fc49fbf7d4a6b0772917acb0e53a1639f6078d6
 
-PODFILE CHECKSUM: 5f3a6874882551f067596c0ca926dcab52460758
+PODFILE CHECKSUM: dc4b48ef50171682ea33eba48a9d6bead9ec2e0a
 
 COCOAPODS: 1.8.4
