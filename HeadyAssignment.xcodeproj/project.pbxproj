@@ -34,6 +34,10 @@
 		E18859B724B60452007CD66A /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18859B124B60452007CD66A /* Result.swift */; };
 		E18859B824B60452007CD66A /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18859B224B60452007CD66A /* Utilities.swift */; };
 		E18859BA24B60835007CD66A /* KeychainManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18859B924B60835007CD66A /* KeychainManager.swift */; };
+		E1B484F624B856C8005224FF /* FetchAllCategoryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B484F524B856C8005224FF /* FetchAllCategoryService.swift */; };
+		E1B484F824B857C0005224FF /* ProductInfo+Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B484F724B857C0005224FF /* ProductInfo+Networking.swift */; };
+		E1B484FB24B86776005224FF /* UIViewController+Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B484FA24B86776005224FF /* UIViewController+Extentions.swift */; };
+		E1B484FD24B868BD005224FF /* Date+Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B484FC24B868BD005224FF /* Date+Extentions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,6 +71,10 @@
 		E18859B124B60452007CD66A /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 		E18859B224B60452007CD66A /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		E18859B924B60835007CD66A /* KeychainManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainManager.swift; sourceTree = "<group>"; };
+		E1B484F524B856C8005224FF /* FetchAllCategoryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchAllCategoryService.swift; sourceTree = "<group>"; };
+		E1B484F724B857C0005224FF /* ProductInfo+Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ProductInfo+Networking.swift"; sourceTree = "<group>"; };
+		E1B484FA24B86776005224FF /* UIViewController+Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extentions.swift"; sourceTree = "<group>"; };
+		E1B484FC24B868BD005224FF /* Date+Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extentions.swift"; sourceTree = "<group>"; };
 		F7AB236D401B254FE02FCF83 /* Pods-HeadyAssignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeadyAssignment.release.xcconfig"; path = "Target Support Files/Pods-HeadyAssignment/Pods-HeadyAssignment.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -171,6 +179,7 @@
 			isa = PBXGroup;
 			children = (
 				E188599D24B60303007CD66A /* BaseService.swift */,
+				E1B484F524B856C8005224FF /* FetchAllCategoryService.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -201,6 +210,7 @@
 		E18859A124B6036F007CD66A /* Entity+Networking */ = {
 			isa = PBXGroup;
 			children = (
+				E1B484F724B857C0005224FF /* ProductInfo+Networking.swift */,
 			);
 			path = "Entity+Networking";
 			sourceTree = "<group>";
@@ -208,6 +218,7 @@
 		E18859A224B60383007CD66A /* Framework */ = {
 			isa = PBXGroup;
 			children = (
+				E1B484F924B8674F005224FF /* Utils */,
 				E18859B924B60835007CD66A /* KeychainManager.swift */,
 				E18859AC24B6041D007CD66A /* Client */,
 				E18859A324B603A5007CD66A /* Networking */,
@@ -237,6 +248,15 @@
 				E18859B224B60452007CD66A /* Utilities.swift */,
 			);
 			path = Client;
+			sourceTree = "<group>";
+		};
+		E1B484F924B8674F005224FF /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				E1B484FA24B86776005224FF /* UIViewController+Extentions.swift */,
+				E1B484FC24B868BD005224FF /* Date+Extentions.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -355,8 +375,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E156721424B5CF0300ABE67F /* ViewController.swift in Sources */,
+				E1B484F824B857C0005224FF /* ProductInfo+Networking.swift in Sources */,
 				E18859A924B603E6007CD66A /* APIClient.swift in Sources */,
 				E188599B24B60240007CD66A /* ViewControllerScene.swift in Sources */,
+				E1B484FD24B868BD005224FF /* Date+Extentions.swift in Sources */,
 				E18859B824B60452007CD66A /* Utilities.swift in Sources */,
 				E180D66924B766F200579A88 /* Ranking.swift in Sources */,
 				E156721024B5CF0300ABE67F /* AppDelegate.swift in Sources */,
@@ -364,6 +386,7 @@
 				E18859B724B60452007CD66A /* Result.swift in Sources */,
 				E180D65D24B74C0400579A88 /* ProductInfo.swift in Sources */,
 				E18859B424B60452007CD66A /* Request.swift in Sources */,
+				E1B484F624B856C8005224FF /* FetchAllCategoryService.swift in Sources */,
 				E18859BA24B60835007CD66A /* KeychainManager.swift in Sources */,
 				E188599E24B60303007CD66A /* BaseService.swift in Sources */,
 				E180D66324B756DA00579A88 /* CategoryProduct.swift in Sources */,
@@ -373,6 +396,7 @@
 				E156721224B5CF0300ABE67F /* SceneDelegate.swift in Sources */,
 				E18859AA24B603E6007CD66A /* Activity.swift in Sources */,
 				E18859A824B603E6007CD66A /* APIError.swift in Sources */,
+				E1B484FB24B86776005224FF /* UIViewController+Extentions.swift in Sources */,
 				E18859B324B60452007CD66A /* HTTPMethod.swift in Sources */,
 				E180D66524B7575100579A88 /* Tax.swift in Sources */,
 				E18859AB24B603E6007CD66A /* SafeClient.swift in Sources */,
