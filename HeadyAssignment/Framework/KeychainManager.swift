@@ -30,6 +30,7 @@ class KeychainManager {
         for key in Array(keys) { defaults.removeObject(forKey: key) }
         defaults.synchronize()
     }
+    
     var baseURL: String {
         return "https://stark-spire-93433.herokuapp.com/json"
     }

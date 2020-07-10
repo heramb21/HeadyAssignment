@@ -14,6 +14,13 @@
 		E156721724B5CF0300ABE67F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E156721524B5CF0300ABE67F /* Main.storyboard */; };
 		E156721924B5CF0500ABE67F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E156721824B5CF0500ABE67F /* Assets.xcassets */; };
 		E156721C24B5CF0500ABE67F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E156721A24B5CF0500ABE67F /* LaunchScreen.storyboard */; };
+		E180D65D24B74C0400579A88 /* ProductInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E180D65C24B74C0400579A88 /* ProductInfo.swift */; };
+		E180D66124B7553D00579A88 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = E180D66024B7553D00579A88 /* Category.swift */; };
+		E180D66324B756DA00579A88 /* CategoryProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = E180D66224B756DA00579A88 /* CategoryProduct.swift */; };
+		E180D66524B7575100579A88 /* Tax.swift in Sources */ = {isa = PBXBuildFile; fileRef = E180D66424B7575100579A88 /* Tax.swift */; };
+		E180D66724B764F900579A88 /* Variant.swift in Sources */ = {isa = PBXBuildFile; fileRef = E180D66624B764F900579A88 /* Variant.swift */; };
+		E180D66924B766F200579A88 /* Ranking.swift in Sources */ = {isa = PBXBuildFile; fileRef = E180D66824B766F200579A88 /* Ranking.swift */; };
+		E180D66B24B7694300579A88 /* RankingProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = E180D66A24B7694300579A88 /* RankingProduct.swift */; };
 		E188599B24B60240007CD66A /* ViewControllerScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E188599A24B60240007CD66A /* ViewControllerScene.swift */; };
 		E188599E24B60303007CD66A /* BaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E188599D24B60303007CD66A /* BaseService.swift */; };
 		E18859A824B603E6007CD66A /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18859A424B603E6007CD66A /* APIError.swift */; };
@@ -40,6 +47,13 @@
 		E156721824B5CF0500ABE67F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E156721B24B5CF0500ABE67F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E156721D24B5CF0500ABE67F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E180D65C24B74C0400579A88 /* ProductInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductInfo.swift; sourceTree = "<group>"; };
+		E180D66024B7553D00579A88 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		E180D66224B756DA00579A88 /* CategoryProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryProduct.swift; sourceTree = "<group>"; };
+		E180D66424B7575100579A88 /* Tax.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tax.swift; sourceTree = "<group>"; };
+		E180D66624B764F900579A88 /* Variant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Variant.swift; sourceTree = "<group>"; };
+		E180D66824B766F200579A88 /* Ranking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ranking.swift; sourceTree = "<group>"; };
+		E180D66A24B7694300579A88 /* RankingProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingProduct.swift; sourceTree = "<group>"; };
 		E188599A24B60240007CD66A /* ViewControllerScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerScene.swift; sourceTree = "<group>"; };
 		E188599D24B60303007CD66A /* BaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseService.swift; sourceTree = "<group>"; };
 		E18859A424B603E6007CD66A /* APIError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
@@ -166,6 +180,13 @@
 			children = (
 				E18859A124B6036F007CD66A /* Entity+Networking */,
 				E18859A024B60361007CD66A /* Entity+Transaction */,
+				E180D65C24B74C0400579A88 /* ProductInfo.swift */,
+				E180D66024B7553D00579A88 /* Category.swift */,
+				E180D66224B756DA00579A88 /* CategoryProduct.swift */,
+				E180D66424B7575100579A88 /* Tax.swift */,
+				E180D66624B764F900579A88 /* Variant.swift */,
+				E180D66824B766F200579A88 /* Ranking.swift */,
+				E180D66A24B7694300579A88 /* RankingProduct.swift */,
 			);
 			path = Entities;
 			sourceTree = "<group>";
@@ -337,16 +358,23 @@
 				E18859A924B603E6007CD66A /* APIClient.swift in Sources */,
 				E188599B24B60240007CD66A /* ViewControllerScene.swift in Sources */,
 				E18859B824B60452007CD66A /* Utilities.swift in Sources */,
+				E180D66924B766F200579A88 /* Ranking.swift in Sources */,
 				E156721024B5CF0300ABE67F /* AppDelegate.swift in Sources */,
+				E180D66124B7553D00579A88 /* Category.swift in Sources */,
 				E18859B724B60452007CD66A /* Result.swift in Sources */,
+				E180D65D24B74C0400579A88 /* ProductInfo.swift in Sources */,
 				E18859B424B60452007CD66A /* Request.swift in Sources */,
 				E18859BA24B60835007CD66A /* KeychainManager.swift in Sources */,
 				E188599E24B60303007CD66A /* BaseService.swift in Sources */,
+				E180D66324B756DA00579A88 /* CategoryProduct.swift in Sources */,
+				E180D66724B764F900579A88 /* Variant.swift in Sources */,
+				E180D66B24B7694300579A88 /* RankingProduct.swift in Sources */,
 				E18859B624B60452007CD66A /* Client.swift in Sources */,
 				E156721224B5CF0300ABE67F /* SceneDelegate.swift in Sources */,
 				E18859AA24B603E6007CD66A /* Activity.swift in Sources */,
 				E18859A824B603E6007CD66A /* APIError.swift in Sources */,
 				E18859B324B60452007CD66A /* HTTPMethod.swift in Sources */,
+				E180D66524B7575100579A88 /* Tax.swift in Sources */,
 				E18859AB24B603E6007CD66A /* SafeClient.swift in Sources */,
 				E18859B524B60452007CD66A /* RequestParameters.swift in Sources */,
 			);
